@@ -36,13 +36,35 @@
                 items: 1,
             },
             768: {
-                items: 3,
+                items: 2,
             },
             1200: {
                 items: 3,
             }
         }
     });
+    //service area Slider
+    $('.service-slider-area-wrapper').owlCarousel({
+        loop: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            1200: {
+                items: 2,
+            }
+        }
+    });
+
+
 
 
 }(jQuery));
