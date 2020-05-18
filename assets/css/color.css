@@ -1,0 +1,22 @@
+:root {
+    --main-theme-color: #165FAA;
+    --paragraph-color: #6C6F7E;
+    --nave-color: #494C5A;
+}
+
+/*text color*/
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--main-theme-color);
+    transition: .4s all ease-in;
+    -webkit-transition: .4s all ease-in;
+    -moz-transition: .4s all ease-in;
+    -ms-transition: .4s all ease-in;
+    -o-transition: .4s all ease-in;
+}
